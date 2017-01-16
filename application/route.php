@@ -9,6 +9,11 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 
+
+use think\Route;
+
+//Route::get('test','index/Test/index');
+
 return [
     '__pattern__' => [
         'name' => '\w+',
